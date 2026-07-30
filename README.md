@@ -93,29 +93,7 @@ vector_ids
 
 ## Setup & Running
 
-### Option A — Docker Compose 
-
-```bash
-# Clone / download the project
-cd project/
-
-# Start everything (MySQL + backend + frontend)
-docker compose up --build
-
-# The seed step runs automatically on backend startup
-```
-
-- Frontend: http://localhost:3000
-- Backend API: http://localhost:8000
-- Swagger docs: http://localhost:8000/docs
-
-Default admin credentials: `admin` / `Admin@123`
-
----
-
-### Option B — Manual local setup
-
-#### 1. MySQL
+#### MySQL
 
 ```sql
 CREATE DATABASE ai_task_km CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
