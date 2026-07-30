@@ -1,6 +1,8 @@
 # AI-Powered Task & Knowledge Management System
 
+```
 An enterprise-style knowledge management platform built with FastAPI, React, and MySQL. Administrators can upload documents and assign tasks, while users perform AI-powered semantic searches over the knowledge base and complete assigned work. The project uses local embeddings with FAISS for semantic retrieval, JWT authentication, Role-Based Access Control (RBAC), activity logging, and analytics.
+```
 ---
 
 ## Tech Stack
