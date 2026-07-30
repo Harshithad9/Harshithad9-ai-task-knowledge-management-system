@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.env
+
+# Storage (user data - don't commit)
+backend/storage/uploads/*
+backend/storage/vector_index/*
+!backend/storage/uploads/.gitkeep
+!backend/storage/vector_index/.gitkeep
+
+# Node
+node_modules/
+frontend/build/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
