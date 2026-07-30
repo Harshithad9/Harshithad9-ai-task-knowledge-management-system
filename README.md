@@ -188,7 +188,15 @@ All key actions are recorded in `activity_logs`: `login`, `task_update`, `docume
 
 ## Screenshots
 
-> Add screenshots to this section after first run.
+## Screenshots
+
+### Login Page
+
+![Login Page](screenshots/login.png)
+
+### Dashboard
+
+![Dashboard](screenshots/Dashboard.png)
 
 | Page | Description |
 |------|-------------|
