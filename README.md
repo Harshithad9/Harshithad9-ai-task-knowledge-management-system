@@ -15,7 +15,7 @@ An enterprise-style knowledge management platform built with FastAPI, React, and
 | **Vector DB** | FAISS (`IndexIDMap + IndexFlatIP`) with JSON sidecar for metadata |
 | **PDF extraction** | pypdf |
 | **Frontend** | React 19, React Router v7, Axios |
-| **Containerisation** | Docker + Docker Compose |
+
 
 > **No external LLM API** is used for core search logic. Embeddings are computed locally using ONNX Runtime via `fastembed`.
 
@@ -49,17 +49,17 @@ project/
 │   │   ├── uploads/                # Uploaded document files
 │   │   └── vector_index/           # FAISS index.faiss + metadata.json
 │   ├── requirements.txt
-│   └── Dockerfile
+│   
 ├── frontend/
-│   ├── src/
-│   │   ├── api/                    # Axios client + per-domain API helpers
-│   │   ├── context/AuthContext.jsx # Global auth state (React Context)
-│   │   ├── components/             # Sidebar, ProtectedRoute
-│   │   └── pages/                  # Login, Register, Dashboard, Tasks,
-│   │                               #   Documents, Search, Analytics
-│   ├── Dockerfile
-│   └── nginx.conf
-└── docker-compose.yml
+    ├── src/
+    │   ├── api/                    # Axios client + per-domain API helpers
+    │   ├── context/AuthContext.jsx # Global auth state (React Context)
+    │   ├── components/             # Sidebar, ProtectedRoute
+    │   └── pages/                  # Login, Register, Dashboard, Tasks,
+    │                               #   Documents, Search, Analytics
+    ├
+    └── nginx.conf
+
 ```
 
 ---
@@ -188,7 +188,15 @@ All key actions are recorded in `activity_logs`: `login`, `task_update`, `docume
 
 ## Screenshots
 
-> Add screenshots to this section after first run.
+## Screenshots
+
+### Login Page
+
+![Login Page](screenshots/login.png)
+
+### Dashboard
+
+![Dashboard](screenshots/Dashboard.png)
 
 | Page | Description |
 |------|-------------|
