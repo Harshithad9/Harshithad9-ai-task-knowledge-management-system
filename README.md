@@ -198,6 +198,22 @@ All key actions are recorded in `activity_logs`: `login`, `task_update`, `docume
 
 ![Dashboard](screenshots/Dashboard.png)
 
+### Documents
+
+![Documents](screenshots/Documents.png)
+
+### Search
+
+![Search](screenshots/Search.png)
+
+### Tasks
+
+![Tasks](screenshots/Tasks.png)
+
+### Analytics
+
+![Analytics](screenshots/Analytics.png)
+
 | Page | Description |
 |------|-------------|
 | Login | JWT auth with username/password |
