@@ -15,7 +15,7 @@ An enterprise-style knowledge management platform built with FastAPI, React, and
 | **Vector DB** | FAISS (`IndexIDMap + IndexFlatIP`) with JSON sidecar for metadata |
 | **PDF extraction** | pypdf |
 | **Frontend** | React 19, React Router v7, Axios |
-| **Containerisation** | Docker + Docker Compose |
+
 
 > **No external LLM API** is used for core search logic. Embeddings are computed locally using ONNX Runtime via `fastembed`.
 
