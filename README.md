@@ -188,8 +188,6 @@ All key actions are recorded in `activity_logs`: `login`, `task_update`, `docume
 
 ## Screenshots
 
-## Screenshots
-
 ### Login Page
 
 ![Login Page](screenshots/login.png)
