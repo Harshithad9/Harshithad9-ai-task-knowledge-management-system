@@ -49,17 +49,17 @@ project/
 │   │   ├── uploads/                # Uploaded document files
 │   │   └── vector_index/           # FAISS index.faiss + metadata.json
 │   ├── requirements.txt
-│   └── Dockerfile
+│   
 ├── frontend/
-│   ├── src/
-│   │   ├── api/                    # Axios client + per-domain API helpers
-│   │   ├── context/AuthContext.jsx # Global auth state (React Context)
-│   │   ├── components/             # Sidebar, ProtectedRoute
-│   │   └── pages/                  # Login, Register, Dashboard, Tasks,
-│   │                               #   Documents, Search, Analytics
-│   ├── Dockerfile
-│   └── nginx.conf
-└── docker-compose.yml
+    ├── src/
+    │   ├── api/                    # Axios client + per-domain API helpers
+    │   ├── context/AuthContext.jsx # Global auth state (React Context)
+    │   ├── components/             # Sidebar, ProtectedRoute
+    │   └── pages/                  # Login, Register, Dashboard, Tasks,
+    │                               #   Documents, Search, Analytics
+    ├
+    └── nginx.conf
+
 ```
 
 ---
